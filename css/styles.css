@@ -19,6 +19,10 @@ p {
   background-image: url("../images/left-shark.gif");
 }
 
+strong {
+  font-size: 1.5em;
+}
+
 @keyframes color-change {
   0% {
     color: rgb(30, 255, 0);
