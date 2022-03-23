@@ -1,3 +1,35 @@
-#story {
+body {
+  background-color: rgb(214, 188, 238);
+  color: azure;
+  background-image: url("https://cdn.vox-cdn.com/thumbor/SiIyeqmKIJGcOJccz94pHgwmgvQ=/0x0:1400x1400/1200x800/filters:focal(588x588:812x812):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/68837730/poptart1redrainbowfix_1.0.gif");
+}
+
+.display {
   display: none;
+}
+img {
+  width: 10vw;
+}
+
+p {
+  animation: color-change 3s infinite;
+}
+
+#body-p {
+  background-image: url("../images/left-shark.gif");
+}
+
+@keyframes color-change {
+  0% {
+    color: rgb(30, 255, 0);
+    border: 5px solid blue;
+  }
+  50% {
+    color: rgb(0, 238, 255);
+    border: 5px solid red;
+  }
+  100% {
+    color: rgb(30, 255, 0);
+    border: 5px solid blue;
+  }
 }
